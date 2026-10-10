@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d1b">
+  <meta name="description" content="Eesala Mukhesh's cybersecurity portfolio featuring SOC monitoring, SIEM, network security, IAM, cloud security and practical security labs.">
+  <title>Eesala Mukhesh | Cybersecurity Portfolio</title>
+
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div id="particles" aria-hidden="true"></div>
+
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo"><span class="logo-icon">&lt;/&gt;</span> MUKHESH<span class="logo-dot">.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#education">Education</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-contact">Contact Me <i class="fa-regular fa-paper-plane"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME / HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="hello-pill"><span class="live-dot"></span> Hello, I'm</div>
+          <p class="hero-kicker">ASPIRING CYBERSECURITY PROFESSIONAL</p>
+          <h1>EESALA<br><span>MUKHESH</span></h1>
+          <h2>Future-focused <span id="typedText">SOC Analyst L1</span><span class="type-cursor">|</span></h2>
+          <p class="hero-description">
+            Passionate about cybersecurity, SOC operations, SIEM monitoring,
+            network traffic analysis and endpoint detection. I am building
+            practical security skills through hands-on labs and continuous learning.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore Projects <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="btn btn-outline" href="#contact">Let's Connect <i class="fa-regular fa-paper-plane"></i></a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/mukhesheesala" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/mukhesh-eesala/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:mukeshesala@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://wa.me/919912053480" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <div class="hero-tags">
+            <span><i class="fa-solid fa-shield-halved"></i> Security Monitoring</span>
+            <span><i class="fa-solid fa-network-wired"></i> Network Security</span>
+            <span><i class="fa-solid fa-magnifying-glass-chart"></i> Threat Analysis</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="profile-glow"></div>
+
+          <div class="photo-frame">
+            <img src="c:\Users\mukhesh\Desktop\mukhi.jpg\mukhesh.jpeg" alt="Eesala Mukhesh profile photo"
+                 onerror="this.style.display='none';document.getElementById('photoFallback').style.display='grid';">
+            <div class="photo-fallback" id="photoFallback">
+              <i class="fa-solid fa-user-shield"></i>
+              <span>Add your profile.jpg</span>
+            </div>
+          </div>
+
+          <div class="float-card float-top"><i class="fa-solid fa-shield-halved"></i><span>Cybersecurity</span></div>
+          <div class="float-card float-left"><i class="fa-solid fa-terminal"></i><span>Learn · Analyse · Secure</span></div>
+          <div class="float-card float-right"><i class="fa-solid fa-chart-line"></i><span>SOC & SIEM</span></div>
+          <div class="visual-caption"><span></span> Building practical skills, one lab at a time</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><i class="fa-solid fa-angles-down"></i><span>Scroll to explore</span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">01 / ABOUT ME</span>
+          <h2>Security starts with <span>curiosity.</span></h2>
+          <p>My background, interests and cybersecurity career goals.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="panel about-main reveal">
+            <div class="panel-icon"><i class="fa-solid fa-user-shield"></i></div>
+            <h3>Who I Am</h3>
+            <p>
+              I am Eesala Mukhesh, a B.Com Computer Applications graduate
+              with a strong interest in cybersecurity and IT security operations.
+              My learning focuses on understanding how systems, networks and
+              endpoints are monitored and protected.
+            </p>
+            <p>
+              I have been building practical lab experience with Splunk,
+              Windows authentication logs, Linux, network analysis tools and
+              security testing fundamentals. I am also developing my knowledge
+              of endpoint detection, cloud security and identity access management.
+            </p>
+            <p>
+              My career goal is to start in an entry-level SOC Analyst L1,
+              junior cybersecurity or security operations role, where I can
+              continue learning and contribute to monitoring, investigation
+              and incident escalation.
+            </p>
+            <div class="about-focus">
+              <span>Current focus</span>
+              <strong>SOC Monitoring · SIEM · EDR · Network Security</strong>
+            </div>
+          </article>
+
+          <div class="about-side reveal">
+            <article class="info-card panel">
+              <span class="info-icon"><i class="fa-solid fa-location-dot"></i></span>
+              <div><small>Location</small><strong>Hyderabad, Telangana, India</strong></div>
+            </article>
+            <article class="info-card panel">
+              <span class="info-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+              <div><small>Education</small><strong>B.Com Computer Applications</strong></div>
+            </article>
+            <article class="info-card panel">
+              <span class="info-icon"><i class="fa-solid fa-bullseye"></i></span>
+              <div><small>Career goal</small><strong>SOC Analyst L1 / Junior Security</strong></div>
+            </article>
+            <article class="info-card panel">
+              <span class="info-icon"><i class="fa-solid fa-laptop-code"></i></span>
+              <div><small>Learning approach</small><strong>Hands-on labs and continuous learning</strong></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">02 / EDUCATION</span>
+          <h2>My learning <span>journey.</span></h2>
+          <p>Academic foundations that support my technology career.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="panel timeline-card">
+              <span class="timeline-date">2022 – 2025</span>
+              <h3>B.Com Computer Applications</h3>
+              <h4>Government City College · Osmania University</h4>
+              <p>Studied commerce and computer applications while developing an interest in information technology and cybersecurity.</p>
+              <span class="result-tag">CGPA: 7.45 / 10</span>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><i class="fa-solid fa-book-open"></i></div>
+            <div class="panel timeline-card">
+              <span class="timeline-date">Previous education</span>
+              <h3>Intermediate</h3>
+              <h4>Government Junior College, Yellandu</h4>
+              <p>Completed intermediate education.</p>
+               <span class="result-tag">CGPA: 87.2 / 10</span>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><i class="fa-solid fa-school"></i></div>
+            <div class="panel timeline-card">
+              <span class="timeline-date">Previous education</span>
+              <h3>School Education</h3>
+              <h4>ZPSS Chellasamudram</h4>
+              <p>Completed school education.</p>
+               <span class="result-tag">CGPA: 10 / 10</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">03 / TECHNICAL SKILLS</span>
+          <h2>My cybersecurity <span>toolkit.</span></h2>
+          <p>A broad overview of tools and technologies I have studied or explored in labs.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="panel skill-card reveal">
+            <div class="skill-heading"><span><i class="fa-solid fa-shield-halved"></i></span><h3>SOC & SIEM</h3></div>
+            <div class="skill-tags">
+              <span>Splunk Enterprise</span><span>Splunk Universal Forwarder</span>
+              <span>Microsoft Sentinel</span><span>SIEM Fundamentals</span>
+              <span>SPL Basics</span><span>Log Monitoring</span>
+              <span>Alert Triage</span><span>IOC Analysis</span>
+              <span>False Positive Analysis</span><span>Incident Escalation</span>
+              <span>Windows Event IDs</span><span>MITRE ATT&CK</span>
+            </div>
+          </article>
+
+          <article class="panel skill-card reveal">
+            <div class="skill-heading"><span><i class="fa-solid fa-network-wired"></i></span><h3>Network & Infrastructure Security</h3></div>
+            <div class="skill-tags">
+              <span>TCP/IP</span><span>OSI Model</span><span>IPv4</span>
+              <span>Subnetting</span><span>CIDR</span><span>DNS</span><span>DHCP</span>
+              <span>HTTP/HTTPS</span><span>TCP/UDP</span><span>ICMP</span>
+              <span>Ports & Services</span><span>Wireshark</span><span>Nmap</span>
+              <span>Netcat</span><span>hping3</span><span>FortiGate</span>
+              <span>Snort IDS/IPS</span><span>Firewalls</span><span>SSH</span>
+              <span>Ping</span><span>Traceroute</span><span>netstat</span>
+            </div>
+          </article>
+
+          <article class="panel skill-card reveal">
+            <div class="skill-heading"><span><i class="fa-solid fa-bug"></i></span><h3>Vulnerability Assessment & Web Security</h3></div>
+            <div class="skill-tags">
+              <span>Burp Suite</span><span>Nessus</span><span>OpenVAS</span>
+              <span>Nikto</span><span>OWASP Top 10</span><span>DVWA</span>
+              <span>SQL Injection Concepts</span><span>XSS Concepts</span>
+              <span>Command Injection Concepts</span><span>Access Control</span>
+              <span>Security Misconfiguration</span><span>Vulnerability Scanning</span>
+            </div>
+          </article>
+
+          <article class="panel skill-card reveal">
+            <div class="skill-heading"><span><i class="fa-solid fa-desktop"></i></span><h3>Endpoint Security & EDR</h3></div>
+            <div class="skill-tags">
+              <span>LimaCharlie EDR</span><span>EDR Fundamentals</span>
+              <span>Endpoint Telemetry</span><span>Windows Security Logs</span>
+              <span>Authentication Monitoring</span><span>Event ID 4624</span>
+              <span>Event ID 4625</span><span>Endpoint Investigation Concepts</span>
+              <span>Detection Fundamentals</span>
+            </div>
+          </article>
+
+          <article class="panel skill-card reveal">
+            <div class="skill-heading"><span><i class="fa-brands fa-linux"></i></span><h3>Systems & Administration</h3></div>
+            <div class="skill-tags">
+              <span>Windows 10</span><span>Ubuntu</span><span>Kali Linux</span>
+              <span>Linux Filesystem</span><span>Linux Commands</span>
+              <span>Users & Groups</span><span>chmod / chown</span>
+              <span>Processes</span><span>sudo</span><span>SSH</span>
+              <span>UFW</span><span>Bash</span><span>VMware Workstation</span>
+              <span>Virtual Machines</span><span>Windows Troubleshooting</span>
+            </div>
+          </article>
+
+          <article class="panel skill-card reveal">
+            <div class="skill-heading"><span><i class="fa-solid fa-cloud"></i></span><h3>Cloud Security & IAM</h3></div>
+            <div class="skill-tags">
+              <span>Microsoft Azure Fundamentals</span><span>Microsoft Sentinel</span>
+              <span>Microsoft Entra ID</span><span>IAM</span>
+              <span>Authentication</span><span>Authorization</span>
+              <span>AWS Fundamentals</span><span>Access Control</span>
+              <span>Identity Management</span><span>GCP Fundamentals</span>
+            </div>
+          </article>
+
+          <article class="panel skill-card reveal">
+            <div class="skill-heading"><span><i class="fa-solid fa-code"></i></span><h3>Scripting & Programming</h3></div>
+            <div class="skill-tags">
+              <span>Python Basics</span><span>Bash Scripting</span>
+              <span>JavaScript Basics</span><span>SQL Basics</span>
+              <span>HTML</span><span>CSS</span><span>Git Fundamentals</span>
+            </div>
+          </article>
+
+          <article class="panel skill-card reveal">
+            <div class="skill-heading"><span><i class="fa-solid fa-gears"></i></span><h3>Platforms & Security Concepts</h3></div>
+            <div class="skill-tags">
+              <span>Docker Fundamentals</span><span>Kubernetes Fundamentals</span>
+              <span>DevSecOps Fundamentals</span><span>Log Forwarding</span>
+              <span>Threat Detection</span><span>Incident Response Fundamentals</span>
+              <span>Network Reconnaissance Concepts</span><span>Security Documentation</span>
+              <span>Alert Investigation Workflow</span>
+            </div>
+          </article>
+        </div>
+        <p class="skills-disclaimer"><i class="fa-solid fa-circle-info"></i> Skill levels vary. Listed technologies include learning topics and tools explored in practical labs; not all represent production experience.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">04 / PRACTICAL WORK</span>
+          <h2>Security labs & <span>projects.</span></h2>
+          <p>Hands-on projects focused on security monitoring, network investigation and endpoint detection.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="panel project-card reveal">
+            <div class="project-top">
+              <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+              <span class="project-status">Lab setup / practice</span>
+            </div>
+            <h3>SOC Security Monitoring & Log Analysis Using Splunk</h3>
+            <p>Set up a virtual lab to explore Windows authentication log collection and basic security event analysis with Splunk Enterprise and the Universal Forwarder.</p>
+            <ul class="project-list">
+              <li>Prepared Windows and Ubuntu virtual machines.</li>
+              <li>Set up Splunk Enterprise and a Windows forwarder.</li>
+              <li>Generated controlled successful and failed login events.</li>
+              <li>Explored Event IDs 4624 and 4625 and log verification.</li>
+            </ul>
+            <div class="project-tags"><span>Splunk</span><span>Windows Logs</span><span>SPL</span><span>Ubuntu</span><span>VMware</span></div>
+            <div class="project-footer"><i class="fa-solid fa-flask"></i> Security monitoring lab</div>
+          </article>
+
+          <article class="panel project-card reveal">
+            <div class="project-top">
+              <div class="project-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+              <span class="project-status">Learning lab</span>
+            </div>
+            <h3>Network Traffic Analysis & Suspicious Activity Investigation</h3>
+            <p>Practised network packet inspection and reconnaissance concepts in a controlled virtual environment to understand traffic patterns and investigate suspicious activity.</p>
+            <ul class="project-list">
+              <li>Explored packet captures and protocol analysis.</li>
+              <li>Studied ports, services and network connections.</li>
+              <li>Learned network investigation workflows.</li>
+              <li>Used tools within an authorized lab environment.</li>
+            </ul>
+            <div class="project-tags"><span>Wireshark</span><span>Nmap</span><span>Netcat</span><span>hping3</span></div>
+            <div class="project-footer"><i class="fa-solid fa-flask"></i> Network security lab</div>
+          </article>
+
+          <article class="panel project-card reveal">
+            <div class="project-top">
+              <div class="project-icon"><i class="fa-solid fa-shield-virus"></i></div>
+              <span class="project-status status-progress">In progress</span>
+            </div>
+            <h3>LimaCharlie EDR Lab for SOC Analyst L1</h3>
+            <p>Developing a beginner endpoint detection lab to learn endpoint telemetry, detection rules and investigation workflows using Windows endpoints and LimaCharlie.</p>
+            <ul class="project-list">
+              <li>Prepare a Windows PC and Windows VM as endpoints.</li>
+              <li>Learn sensor and telemetry fundamentals.</li>
+              <li>Explore detection and investigation workflows as setup progresses.</li>
+            </ul>
+            <div class="project-tags"><span>LimaCharlie</span><span>EDR</span><span>Windows 10</span><span>Telemetry</span></div>
+            <div class="project-footer"><i class="fa-solid fa-spinner"></i> Work in progress</div>
+          </article>
+        </div>
+        <p class="projects-note">Project descriptions reflect lab learning and setup. Update them as you complete additional tasks and verify results.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">05 / GET IN TOUCH</span>
+          <h2>Let's build a <span>safer digital world.</span></h2>
+          <p>Open to entry-level SOC Analyst, cybersecurity and security internship opportunities.</p>
+        </div>
+
+        <div class="contact-grid">
+          <a class="panel contact-card reveal" href="tel:+919912053480">
+            <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+            <span class="contact-copy"><small>Phone</small><strong>+91 9912053480</strong></span>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+          <a class="panel contact-card reveal" href="mailto:mukeshesala@gmail.com">
+            <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+            <span class="contact-copy"><small>Email</small><strong>mukeshesala@gmail.com</strong></span>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+          <a class="panel contact-card reveal" href="https://github.com/mukhesheesala" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon"><i class="fa-brands fa-github"></i></span>
+            <span class="contact-copy"><small>GitHub</small><strong>github.com/mukhesheesala</strong></span>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+          <a class="panel contact-card reveal" href="https://wa.me/919912053480" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon whatsapp-icon"><i class="fa-brands fa-whatsapp"></i></span>
+            <span class="contact-copy"><small>WhatsApp</small><strong>Message me directly</strong></span>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+          <a class="panel contact-card reveal" href="https://linkedin.com/in/mukhesh-eesala/" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+            <span class="contact-copy"><small>LinkedIn</small><strong>linkedin.com/in/mukhesh-eesala</strong></span>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo"><span class="logo-icon">&lt;/&gt;</span> MUKHESH<span class="logo-dot">.</span></a>
+      <p>Learn continuously. Investigate carefully. Secure responsibly.</p>
+      <div class="footer-links">
+        <a href="mailto:mukeshesala@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/mukhesheesala" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://wa.me/919912053480" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://linkedin.com/in/mukhesh-eesala/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Eesala Mukhesh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="./index.js"></script>
+</body>
+</html>
